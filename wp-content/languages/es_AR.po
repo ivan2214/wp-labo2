@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 6.7.x - Development package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-11-06 02:58:31+0000\n"
+"PO-Revision-Date: 2024-11-15 12:14:26+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -286,6 +286,36 @@ msgstr "domingo"
 msgid "Uncategorized"
 msgstr "Sin categoría"
 
+#: wp-includes/blocks/tag-cloud/block.json
+msgctxt "block description"
+msgid "A cloud of popular keywords, each sized by how often it appears."
+msgstr "Una nube de palabras clave populares, cada una dimensionada según la frecuencia con que aparece."
+
+#: wp-includes/blocks/list/block.json
+msgctxt "block description"
+msgid "An organized collection of items displayed in a specific order."
+msgstr "Una colección organizada de elementos mostrados en un orden específico."
+
+#: wp-includes/blocks/list-item/block.json
+msgctxt "block description"
+msgid "An individual item within a list."
+msgstr "Un elemento individual dentro de una lista."
+
+#: wp-includes/blocks/categories/block.json
+msgctxt "block keyword"
+msgid "categories"
+msgstr "categorías"
+
+#: wp-includes/blocks/categories/block.json
+msgctxt "block description"
+msgid "Display a list of all terms of a given taxonomy."
+msgstr "Mostrá una lista de todos los términos de una taxonomía determinada."
+
+#: wp-includes/blocks/categories/block.json
+msgctxt "block title"
+msgid "Terms List"
+msgstr "Lista de términos"
+
 #: wp-includes/blocks/widget-group/block.json
 msgctxt "block title"
 msgid "Widget Group"
@@ -380,7 +410,7 @@ msgstr "https://www.w3.org/WAI/tutorials/images/decision-tree/"
 
 #. translators: 1: Path pointing to an Interactivity API state property, 2:
 #. Namespace for an Interactivity API store.
-#: wp-includes/interactivity-api/class-wp-interactivity-api.php:604
+#: wp-includes/interactivity-api/class-wp-interactivity-api.php:605
 msgid "Uncaught error executing a derived state callback with path \"%1$s\" and namespace \"%2$s\"."
 msgstr "Error no detectado al ejecutar una devolución de llamada de estado derivado con la ruta \"%1$s\" y el espacio de nombres \"%2$s\"."
 
@@ -1068,6 +1098,12 @@ msgstr "El parámetro \"uses_context\" debe ser un array."
 #: wp-includes/class-wp-block-bindings-registry.php:160
 msgid "The \"get_value_callback\" parameter must be a valid callback."
 msgstr "El parámetro \"get_value_callback\" debe ser una devolución de llamada válida."
+
+#. translators: 1: pixel value for icon size. 2: pixel value for icon size.
+#: wp-includes/class-wp-customize-manager.php:5214
+#: wp-admin/options-general.php:216
+msgid "The Site Icon is what you see in browser tabs, bookmark bars, and within the WordPress mobile apps. It should be square and at least <code>%1$s by %2$s</code> pixels."
+msgstr "El ícono del sitio es lo que ves en las pestañas del navegador, en las barras de favoritos y en las aplicaciones móviles de WordPress. Debe ser cuadrado y tener al menos <code>%1$s por %2$s</code> píxeles."
 
 #: wp-includes/class-wp-block-bindings-registry.php:150
 msgid "The $source_properties must contain a \"get_value_callback\"."

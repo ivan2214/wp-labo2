@@ -18,7 +18,13 @@ error_log
 # Plugins y temas instalados
 wp-content/plugins/
 wp-content/themes/
-!wp-content/themes/tu-tema-personalizado/
+# ignorar los que no sean neve-hijo
+!wp-content/themes/neve-hijo
+!wp-content/plugins/neve-hijo
+
+
+
+
 
 # Subidas
 wp-content/uploads/
