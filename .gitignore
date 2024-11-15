@@ -1,0 +1,42 @@
+# WordPress Core
+wp-admin/
+wp-includes/
+
+# Configuración sensible
+wp-config.php
+wp-config-*.php
+
+# Archivos generados automáticamente
+*.log
+debug.log
+error_log
+*.sql
+*.sqlite
+*.zip
+*.tar.gz
+
+# Plugins y temas instalados
+wp-content/plugins/
+wp-content/themes/
+!wp-content/themes/tu-tema-personalizado/
+
+# Subidas
+wp-content/uploads/
+
+# Composer y Node
+vendor/
+node_modules/
+npm-debug.log*
+yarn-error.log
+
+# Sistema operativo y herramientas comunes
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.bak
+*.swp
+*.tmp
+
+# Archivos de Git
+!.gitignore
