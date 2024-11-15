@@ -15,13 +15,13 @@ error_log
 *.zip
 *.tar.gz
 
-# Plugins y temas instalados
+# Ignorar todos los plugins y temas
 wp-content/plugins/
 wp-content/themes/
-# ignorar los que no sean neve-hijo
-!wp-content/themes/neve-hijo
-!wp-content/plugins/neve-hijo
 
+# Excepciones: no ignorar el tema y el plugin "neve-hijo"
+!wp-content/themes/neve-hijo/
+!wp-content/plugins/neve-hijo/
 
 
 
