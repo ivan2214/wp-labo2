@@ -10,7 +10,7 @@ wp-config-*.php
 *.log
 debug.log
 error_log
-*.sql
+
 *.sqlite
 *.zip
 *.tar.gz
