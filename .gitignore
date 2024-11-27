@@ -15,13 +15,6 @@ error_log
 *.zip
 *.tar.gz
 
-
-
-
-
-# Subidas
-
-
 # Composer y Node
 vendor/
 node_modules/
