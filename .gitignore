@@ -20,7 +20,7 @@ error_log
 
 
 # Subidas
-wp-content/uploads/
+
 
 # Composer y Node
 vendor/
