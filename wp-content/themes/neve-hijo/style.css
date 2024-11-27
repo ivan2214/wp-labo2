@@ -24,3 +24,18 @@ Text Domain: neve-hijo
   pointer-events: none !important;
   transition: opacity 0.3s ease, visibility 0.3s ease;
 }
+
+#cb-row--footer-desktop-bottom > div > div > div > div.hfg-slot.left > div > div > div > div > p{
+  display: none !important;
+}
+
+#content > div.wp-block-cover.alignfull.is-light > div > div.wp-block-group > div > div > div > a{
+  border-radius: .6rem !important;
+  overflow: hidden !important;
+  background-color: #fff !important;
+  padding: 1rem !important;
+  box-shadow: 0 0 1.5rem 0.5rem #00000029 !important;
+  color: #000 !important;
+  
+  
+}
